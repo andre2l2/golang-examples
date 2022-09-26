@@ -1,8 +1,10 @@
 package main
 
-import jsonexample "github.com/andre2l2/test/json"
+import (
+	ftp_http "github.com/andre2l2/test/ftp-http"
+)
 
 
 func main()  {
-	jsonexample.Example2()
+	ftp_http.Example1()
 }
