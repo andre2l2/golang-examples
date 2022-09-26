@@ -19,7 +19,7 @@ func Example2() {
 		log.Fatal("Error when ReadFile()", err)
 	}
 
-	var payload Data
+	var payload []Data
 	err = json.Unmarshal(content, &payload)
 
 	if err != nil {
