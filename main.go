@@ -1,10 +1,9 @@
 package main
 
 import (
-	ftp_http "github.com/andre2l2/test/ftp-http"
+	"github.com/andre2l2/golang-examples/basic"
 )
 
-
 func main()  {
-	ftp_http.Example1()
+	basic.Example4()
 }
