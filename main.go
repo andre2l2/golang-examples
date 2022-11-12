@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/andre2l2/golang-examples/basic"
+	"fmt"
 )
 
 func main()  {
-	basic.Example4()
+	fmt.Println("Go Lang Examples")
 }
